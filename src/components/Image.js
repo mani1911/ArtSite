@@ -2,7 +2,7 @@ import React from "react";
 
 const Image = ({ src }) => {
   return (
-    <div className="group relative w-96 m-5 shadow-xl">
+    <div className="group relative md:w-96 m-5 shadow-xl flex sm:w-9/10">
       <img className="w-full object-cover rounded-xl" src={src} />
       <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-indigo-700/10 transpa opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
         <a
